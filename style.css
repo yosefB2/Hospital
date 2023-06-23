@@ -23,6 +23,7 @@ body{
     width: 100%;
     height: 60px;background:
     RGBA(13, 70, 80, 0.78);
+    position: fixed;
 }
 .navbar .logo{
     width: 110px;
@@ -99,4 +100,47 @@ header a{
     background: #ffb737;
     border: 0;
     margin: 20px 0 20px 0;
+}
+/* table */
+table,td{
+    border: 1px solid black;
+    border-top: 1px solid rgba(216, 216, 216, .6);
+    border-collapse: collapse;
+}
+td{
+    color: white;
+    border-top: 1px solid rgba(216, 216, 216, .6);
+    /* border: 1px solid rgba(216, 216, 216, .6); */
+    padding: 5px 30px 5px 30px;
+    text-align: right;
+}
+.table{
+    display: grid;
+    grid-template-columns: repeat(3,345px);
+    grid-template-rows: repeat(3,153px);
+    gap: 1px;
+    margin-top: 30px;
+    margin-right: 80px;
+}
+.itemintable{
+    position: relative;
+    background: #0cb8b6;
+    padding:0 10px 10px 10px;
+    text-align: right;
+}
+.itemintable a{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    border: 1px solid white;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 10px;
+}
+.itemintable h4{
+    color: white;
+    text-align: right;
+    padding: 15px 0 10px 10px;
+    font-size: 18px;
 }
