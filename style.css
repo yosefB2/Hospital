@@ -1,0 +1,102 @@
+@font-face{
+    font-family: "Samin-FD";
+    src: url("fonts/Samim-FD.woff") , format("woff");
+}
+body{
+    
+    font-family: "Samin-FD" , sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+/* container */
+.container{
+    width: 100%;
+    height: 435px;
+    background:linear-gradient(RGBA(13, 70, 80, 0.78) ,RGBA(13, 70, 80, 0.78)), url(img/bg-banner.jpg)center ;
+}
+/* navbar */
+.navbar{
+    width: 100%;
+    height: 60px;background:
+    RGBA(13, 70, 80, 0.78);
+}
+.navbar .logo{
+    width: 110px;
+    float: left;
+    margin-left: 120px;
+    margin-top: 15px;
+}
+.navbar ul.menu li{
+    display: inline;
+    list-style: none;
+    padding-left: 10px;
+    top: 20px;
+    position: relative;
+    right: 130px;
+    color: white;
+}
+.navbar ul.menu li:hover{
+    border-bottom:1px solid black ;
+}
+/* header */
+.header{
+    text-align: center;
+    padding: 100px 0 100px 0;
+}
+.header h2{
+    color: white;
+    padding: 10px 0 20px 0;
+}
+.header p{
+    color: white;
+}
+header a{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    position: relative;
+    top: 20px;
+    background-color: rgba(12, 184, 182, 0.91);
+}
+/* service */
+
+.my-container{
+  display: grid;
+  grid-template-columns: repeat(3,345px);
+  grid-template-rows: repeat(3,233px);
+  gap: 10px;
+}
+.item{
+    position: relative;
+    right: 80px;
+    top: 40px;
+    padding: 5px 10px 10px 10px;
+    font-size: 15px;
+}
+.item i{
+    padding-bottom: 30px;
+}
+.item p{
+    font-size: 13px;
+    color: #999999;
+    line-height: 20px;
+}
+.item h4{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.item3 h4{
+    font-size: 25px;
+}
+.line{
+    height: 3px;
+    width: 60px;
+    background: #ffb737;
+    border: 0;
+    margin: 20px 0 20px 0;
+}
