@@ -179,3 +179,45 @@ td{
     color: black;
     font-size: 25px;
 }
+
+/* about */
+.boximg{
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    position: relative;
+    right: 200px;
+    bottom: 100px;
+}
+.img{
+    border: 1px solid #999999;
+    width:220px;
+    height: 370px;
+    margin-left: 20px;
+}
+.img img{
+    width: 210px;
+    padding: 5px;
+}
+.img h2{
+    padding: 10px;
+}
+.img p{
+    padding: 10px;
+}
+.img li{
+    list-style: none;
+    display: inline;
+    margin-left: 10px;
+    position: relative;
+    right: 30px;
+    top: 20px;
+}
+.about h1{
+    position: relative;
+    right: 160px;
+}
+.about hr{
+    position: relative;
+    right: 160px;
+}
