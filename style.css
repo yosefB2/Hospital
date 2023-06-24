@@ -24,6 +24,7 @@ body{
     height: 60px;background:
     RGBA(13, 70, 80, 0.78);
     position: fixed;
+    z-index: 1000;
 }
 .navbar .logo{
     width: 110px;
@@ -71,6 +72,8 @@ header a{
   grid-template-columns: repeat(3,345px);
   grid-template-rows: repeat(3,233px);
   gap: 10px;
+  position: relative;
+  top: 50px;
 }
 .item{
     position: relative;
@@ -94,7 +97,7 @@ header a{
 .item3 h4{
     font-size: 25px;
 }
-.line{
+hr{
     height: 3px;
     width: 60px;
     background: #ffb737;
@@ -143,4 +146,36 @@ td{
     text-align: right;
     padding: 15px 0 10px 10px;
     font-size: 18px;
+}
+.boxtext{
+    display: grid;
+    grid-template-columns: repeat(2,350px);
+    gap: 80px;
+    position: relative;
+    bottom: 200px;
+    right: 200px;
+}
+.iteminboxtext{
+    width: 90%;
+    color: #999999;
+}
+.iteminboxtext li{
+    float: left;
+    list-style: none;
+    width: 35px;
+    height: 35px;
+    padding: 6px;
+    background: #0cb8b6;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    font-weight: 900;
+    position: relative;
+    right: 40px;
+    bottom: 40px;
+}
+.iteminboxtext h3{
+    padding-bottom:20px ;
+    color: black;
+    font-size: 25px;
 }
