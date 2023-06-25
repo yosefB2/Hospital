@@ -221,3 +221,52 @@ td{
     position: relative;
     right: 160px;
 }
+
+/* testimonial */
+
+.containertest{
+    background-color: #eeeeee;
+}
+.testimonial{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    width: 900px;
+}
+.detalis{
+    width: 300px;
+    position: relative;
+    right: 150px;
+}
+.textindetalis{
+    background-color: #fff;
+    height: 120px;
+    padding: 10px 15px;
+    box-shadow: 3px 2px 2px 0 rgba(0, 0, 0, .18);
+}
+.detalis p{
+    color: #999999;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 20px solid transparent;
+     border-top: 20px solid #fff;
+     position: relative;
+     right: 240px;
+}
+.person-info img{
+    width: 45px;
+    float: left;
+    position: relative;
+    bottom: 20px;
+}
+.containertest h1,.containertest hr{
+    position: relative;
+    right:150px ;
+    
+}
+.containertest h1{
+    padding-top:30px ;
+}
