@@ -263,10 +263,66 @@ td{
     bottom: 20px;
 }
 .containertest h1,.containertest hr{
-    position: relative;
-    right:150px ;
+    /* position: relative;
+    right:150px ; */
+    margin-right: 150px;
     
 }
 .containertest h1{
     padding-top:30px ;
+}
+/* contact */
+.containercontact{
+
+}
+.contact{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 900px;
+    position: relative;
+    right: 245px;
+    gap:25px;
+}
+.containercontact h2,.containercontact hr{
+    margin-right: 300px;
+    margin-top: 30px;
+    font-size: 27px;
+}
+.contact h3{
+    font-size: 25px;
+    padding: 10px 0 35px 0;
+}
+
+.contactform input{
+    width: 500px;
+    height: 30px;
+    margin-bottom: 10px;
+
+}
+.contactform textarea{
+    resize: none;
+    margin-bottom: 20px;
+    font-size: 15px;
+    padding: 5px;
+}
+.contactform a{
+color: #fff;
+background-color: #0cb8b6;
+padding: 8px 16px;
+text-decoration: none;
+}
+.contctinfo p{
+color: #999999;
+padding-bottom: 20px;
+font-size: 15px;
+
+}
+.contacticon ul{
+    margin-top: 70px;
+}
+.contacticon li{
+    list-style: none;
+    padding-bottom: 23px;
+    font-size: 14px;
+    color: #999999
 }
